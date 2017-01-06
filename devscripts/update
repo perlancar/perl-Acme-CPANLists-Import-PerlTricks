@@ -1,0 +1,39 @@
+#!/usr/bin/env perl
+
+use 5.010;
+use strict;
+use warnings;
+use FindBin '$Bin';
+
+use App::CreateAcmeCPANListsImportModules;
+use Perinci::Sub::Util qw(gen_curried_sub);
+use Perinci::CmdLine::Any;
+
+# from App::CreateAcmeCPANListsImportModules
+sub _url_to_filename {
+    my $url = shift;
+    $url =~ s![^A-Za-z0-9_.-]+!_!g;
+    $url;
+}
+
+gen_curried_sub(
+    'App::CreateAcmeCPANListsImportModules::create_acme_cpanlists_import_modules',
+    {
+        modules => [
+            {
+                name => 'WhatsNewOnCPAN/201612',
+                url => "http://perltricks.com/article/what-s-new-on-cpan---december-2016/",
+                summary => "Modules mentioned in PerlTricks.com's What's New on CPAN article, edition Dec 2016",
+            },
+        ],
+        namespace => 'Acme::CPANLists::Import::PerlTricks',
+        user_agent => 'Mozilla/5.0',
+        dist_dir => "$Bin/..",
+    },
+    'app',
+);
+
+Perinci::CmdLine::Any->new(
+    url => '/main/app',
+    log => 1,
+)->run;

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <title> What&#39;s new on CPAN - December 2016 </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A curated look at December&#39;s new CPAN uploads"/>
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="/favicon.ico">
+    
+</head>
+<body>
+
+<div class="container-fluid full-wdith antonio">
+ <div class="row">
+  <div class="navbar-inverse" style="border-radius:none !important" role="navigation">
+    <div class="container-fluid">
+      <ul id="follow-buttons" class="nav navbar-nav pull-right follow">
+          <li>FOLLOW US:</li>
+          <li><a href="https://twitter.com/intent/follow?screen_name=perltricks">
+              <img src="/images/header/twitter_20.png" alt="twitter"></a><li>
+          <li><a href="/index.xml" />
+              <img src="/images/header/rss_20.png" alt="rss"></a></li>
+          <li><a href="https://github.com/dnmfarrell/perltricks-static/" />
+              <img src="/images/header/github_light_20.png" alt="GH"></a></li>
+      </ul>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="/">
+          <img src="/images/header/perltricks_logo.png" alt="PerlTricks" />
+          </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/">
+              <div class="circle">
+                  <span class="glyphicon glyphicon-home txt-perltricks-blue" aria-hidden="true"></span>
+              </div>
+                  &nbsp;&nbsp;HOME</a>
+          </li>
+          <li><a href="/authors">
+              <div class="circle">
+                  <span class="glyphicon glyphicon-pencil txt-perltricks-blue" aria-hidden="true"></span>
+              </div>
+                  &nbsp;&nbsp;AUTHORS</a>
+          </li>
+          <li><a href="/about">
+              <div class="circle">
+                  <span class="glyphicon glyphicon-user txt-perltricks-blue" aria-hidden="true"></span>
+              </div>
+                  &nbsp;&nbsp;ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+
+  <section id="content" role="main">
+    <section class="entry-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <article>
+              
+              
+              <h1 class="blog-post-title">What&#39;s new on CPAN - December 2016</h1>
+              <p class="blog-post-meta">Jan 5, 2017 by <a href="#author-bio">David Farrell</a></p>
+              <img alt="" src="/images/209/EC0FEBBE-FF2E-11E3-8A2A-5C05A68B9E16.png"/>
+                
+
+<p>Welcome to &ldquo;What&rsquo;s new on CPAN&rdquo;, a curated look at last month&rsquo;s new CPAN uploads for your reading and programming pleasure. There were lot&rsquo;s of fun holiday presents added to CPAN last month, enjoy!</p>
+
+<h3 id="apis-apps:77df298e7f9565b07d2c0fba1b7bb606">APIs &amp; Apps</h3>
+
+<ul>
+<li><a href="https://metacpan.org/pod/App::RoboBot">App::RoboBot</a> is a multi-protocol S-Expression chatbot</li>
+<li>Remove ANSI coloring from output or files using <a href="https://metacpan.org/pod/App::UnANSI">App::UnANSI</a></li>
+<li><a href="https://metacpan.org/pod/Bb::Collaborate::Ultra">Bb::Collaborate::Ultra</a> provides Perl bindings for Blackboard Ultra virtual classrooms</li>
+<li><a href="https://metacpan.org/pod/JIRA::REST::Class">JIRA::REST::Class</a> is an OO module built on JIRA::REST</li>
+<li>Use the Azue Cognitive Services Face API with <a href="https://metacpan.org/pod/Net::Azure::CognitiveServices::Face">Net::Azure::CognitiveServices::Face</a></li>
+<li><a href="https://metacpan.org/pod/WWW::Wikipedia::LangTitles">WWW::Wikipedia::LangTitles</a> gets interwiki links from Wikipedia, with some interesting use cases</li>
+</ul>
+
+<h3 id="config-devops:77df298e7f9565b07d2c0fba1b7bb606">Config &amp; Devops</h3>
+
+<ul>
+<li><a href="https://metacpan.org/pod/Beam::Runner">Beam::Runner</a> - run methods from objects in Beam::Wire containers</li>
+<li><a href="https://metacpan.org/pod/Monitor::MetricsAPI">Monitor::MetricsAPI</a> provides metrics collection and reporting for Perl applications.</li>
+<li><a href="https://metacpan.org/pod/Redis::RateLimit">Redis::RateLimit</a> provides sliding window rate limiting with Redis</li>
+</ul>
+
+<h3 id="data:77df298e7f9565b07d2c0fba1b7bb606">Data</h3>
+
+<ul>
+<li><a href="https://metacpan.org/pod/Data::Layout::BuddySystem">Data::Layout::BuddySystem</a> Layout data in memory allocated via a buddy system</li>
+<li>Universally Unique Lexicographically Sortable Identifier using <a href="https://metacpan.org/pod/Data::ULID">Data::ULID</a></li>
+<li><a href="https://metacpan.org/pod/JSON::RPC2::TwoWay">JSON::RPC2::TwoWay</a> Transport-independent bidirectional JSON-RPC 2.0</li>
+<li><a href="https://metacpan.org/pod/Mongol">Mongol</a> is a basic MongoDB wrapper for Moose objects with a great name</li>
+<li>Programatically build HTML (a la CGI) using <a href="https://metacpan.org/pod/Moonshine::Element">Moonshine::Element</a></li>
+<li>Convert pod to Confluence-flavored markdown with <a href="https://metacpan.org/pod/Pod::Confluence">Pod::Confluence</a></li>
+<li><a href="https://metacpan.org/pod/Text::Diff::Unified::XS">Text::Diff::Unified::XS</a> - if you need a fast diff this might be your module</li>
+</ul>
+
+<h3 id="development-version-control:77df298e7f9565b07d2c0fba1b7bb606">Development &amp; Version Control</h3>
+
+<ul>
+<li>&lsquo;Unbless&rsquo; Perl objects using <a href="https://metacpan.org/pod/Acme::Damn">Acme::Damn</a> - love the name</li>
+<li><a href="https://metacpan.org/pod/App::TestOnTap">App::TestOnTap</a> is a comprehensive test driver</li>
+<li>Lift subroutine calls into the BEGIN phase using <a href="https://metacpan.org/pod/BEGIN::Lift">BEGIN::Lift</a>. If you&rsquo;re interested in this module, also check out <a href="https://metacpan.org/pod/B::CompilerPhase::Hook">B::CompilerPhase::Hook</a></li>
+<li><a href="https://metacpan.org/pod/MarpaX::Languages::Dash">MarpaX::Languages::Dash</a> is a Marpa-based parser for the DASH language</li>
+<li><a href="https://metacpan.org/pod/MooseX::EventEmitter">MooseX::EventEmitter</a> is an event emitter for Moose</li>
+<li>This is an interesting idea: subroutine versioning <a href="https://metacpan.org/pod/Sub::Versions">Sub::Versions</a></li>
+<li><a href="https://metacpan.org/pod/UNIVERSAL::Object">UNIVERSAL::Object</a> aims to be &ldquo;a useful base class&rdquo;</li>
+</ul>
+
+<h3 id="language-international:77df298e7f9565b07d2c0fba1b7bb606">Language &amp; International</h3>
+
+<ul>
+<li>Get the names of postcodes/zipcodes with <a href="https://metacpan.org/pod/Lingua::Postcodes">Lingua::Postcodes</a></li>
+</ul>
+
+<h3 id="other:77df298e7f9565b07d2c0fba1b7bb606">Other</h3>
+
+<ul>
+<li><a href="https://metacpan.org/pod/Game::Asset">Game::Asset</a> loads game assets (images, music, etc.), author Timm Murray has uploaded several game-related modules recently. Check them out</li>
+<li><a href="https://metacpan.org/pod/UMLS::Association">UMLS::Association</a> provides different semantic association measures in order to calculate the semantic association between two concepts in the UMLS</li>
+</ul>
+
+<h3 id="science-mathematics:77df298e7f9565b07d2c0fba1b7bb606">Science &amp; Mathematics</h3>
+
+<ul>
+<li>Do cryptography in pure Perl using <a href="https://metacpan.org/pod/Crypt::Perl">Crypt::Perl</a></li>
+<li><a href="https://metacpan.org/pod/HTML::Notebook">HTML::Notebook</a> compose HTML documents using notebook style, might be good for scientists</li>
+<li>Produce graphs of Stepford Dependencies using <a href="https://metacpan.org/pod/Stepford::Grapher">Stepford::Grapher</a></li>
+</ul>
+
+<h3 id="web:77df298e7f9565b07d2c0fba1b7bb606">Web</h3>
+
+<ul>
+<li><a href="https://metacpan.org/pod/Catalyst::Plugin::Perlinfo">Catalyst::Plugin::Perlinfo</a> displays additional information about Perl on the Catalyst debug screen</li>
+<li>Generate charts from data using BokehJS with <a href="https://metacpan.org/pod/Chart::Bokeh">Chart::Bokeh</a></li>
+<li><a href="https://metacpan.org/pod/Dancer2::Plugin::ParamTypes">Dancer2::Plugin::ParamTypes</a> is a parameter type checking plugin for Dancer2</li>
+<li>Turn TCP streams into a line-based stream with <a href="https://metacpan.org/pod/MojoX::LineStream">MojoX::LineStream</a></li>
+<li>Conveniently fire off subprocesses in Mojo apps using <a href="https://metacpan.org/pod/Mojolicious::Plugin::Subprocess">Mojolicious::Plugin::Subprocess</a></li>
+</ul>
+
+              </article>
+              <p><strong>Tags</strong></p>
+              <div class="tags">
+                <div class="category"><a href="/categories/cpan">cpan</a></div>
+                
+                  <div class="tag"><a href="/tags/ansi">ansi</a></div>
+                
+                  <div class="tag"><a href="/tags/azure">azure</a></div>
+                
+                  <div class="tag"><a href="/tags/blackboard">blackboard</a></div>
+                
+                  <div class="tag"><a href="/tags/jira">jira</a></div>
+                
+                  <div class="tag"><a href="/tags/redis">redis</a></div>
+                
+                  <div class="tag"><a href="/tags/buddy-system">buddy-system</a></div>
+                
+                  <div class="tag"><a href="/tags/ulid">ulid</a></div>
+                
+                  <div class="tag"><a href="/tags/json-rpc">json-rpc</a></div>
+                
+                  <div class="tag"><a href="/tags/mongodb">mongodb</a></div>
+                
+                  <div class="tag"><a href="/tags/confluence">confluence</a></div>
+                
+                  <div class="tag"><a href="/tags/diff">diff</a></div>
+                
+                  <div class="tag"><a href="/tags/catalyst">catalyst</a></div>
+                
+                  <div class="tag"><a href="/tags/dancer2">dancer2</a></div>
+                
+                  <div class="tag"><a href="/tags/mojolicious">mojolicious</a></div>
+                
+                  <div class="tag"><a href="/tags/bokehjs">bokehjs</a></div>
+                
+              </div>
+            </div>
+            <div class="row" id="author-bio">
+              
+              <div class="col-sm-2">
+                <div class="circle-avatar" style="background-image:url(/images/author/david.jpg)"></div>
+              </div>
+              <div class="col-sm-10" style="margin:0 0 50px 0">
+                <h3>David Farrell</h3>
+                <p>David is the founder and editor of PerlTricks.com. An organizer of the <a href="http://www.meetup.com/The-New-York-Perl-Meetup-Group/">New York Perl Meetup</a>, he works as a technology consultant in New York City.</p>
+                <h5><a href="/authors/david-farrell">Browse their articles</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="latest-sidebar">
+
+  <div class="row">
+    <div class="col-sm-12 centering">
+      <span style="font-size:1.8em" class="antonio txt-perltricks-blue">OUR LATEST ARTICLES</span>
+    </div>
+  </div>
+  
+        
+        
+  <div class="row">
+      <a href="http://perltricks.com/article/what-s-new-on-cpan---december-2016/">
+    <div class="col-sm-3">
+      <div class="circle-avatar" style="background-image:url(/images/209/EC0FEBBE-FF2E-11E3-8A2A-5C05A68B9E16.png)"></div>
+    </div>
+    <div class="col-sm-9">
+        <h6>What&#39;s new on CPAN - December 2016</h6>
+        <p style="line-height:1"><small>A curated look at December&#39;s new CPAN uploads</small></p>
+    </div>
+      </a>
+  </div>
+  
+        
+        
+  <div class="row">
+      <a href="http://perltricks.com/article/obscure-perl-trick--single-quote-separators/">
+    <div class="col-sm-3">
+      <div class="circle-avatar" style="background-image:url(/images/author/david.jpg)"></div>
+    </div>
+    <div class="col-sm-9">
+        <h6>Obscure Perl trick: single-quote separators</h6>
+        <p style="line-height:1"><small>One of Perl&#39;s ancient artifacts</small></p>
+    </div>
+      </a>
+  </div>
+  
+        
+        
+  <div class="row">
+      <a href="http://perltricks.com/article/perl-module-names-are-filepaths---and-that-s-all/">
+    <div class="col-sm-3">
+      <div class="circle-avatar" style="background-image:url(/images/author/david.jpg)"></div>
+    </div>
+    <div class="col-sm-9">
+        <h6>Perl module names are filepaths - and that&#39;s all</h6>
+        <p style="line-height:1"><small>Understand how Perl loads code</small></p>
+    </div>
+      </a>
+  </div>
+  
+        
+        
+  <div class="row">
+      <a href="http://perltricks.com/article/what-s-new-on-cpan---november-2016/">
+    <div class="col-sm-3">
+      <div class="circle-avatar" style="background-image:url(/images/202/CD6B9F5C-F4AE-11E4-A230-A2654E9B8265.png)"></div>
+    </div>
+    <div class="col-sm-9">
+        <h6>What&#39;s new on CPAN - November 2016</h6>
+        <p style="line-height:1"><small>A curated look at November&#39;s new CPAN uploads</small></p>
+    </div>
+      </a>
+  </div>
+  
+        
+        
+  <div class="row">
+      <a href="http://perltricks.com/article/how-to-build-a-base-module/">
+    <div class="col-sm-3">
+      <div class="circle-avatar" style="background-image:url(/images/author/david.jpg)"></div>
+    </div>
+    <div class="col-sm-9">
+        <h6>How to build a base module</h6>
+        <p style="line-height:1"><small>Establish consistency and reduce boilerplate across your project</small></p>
+    </div>
+      </a>
+  </div>
+  
+</div>
+
+            <div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PerlTricks" data-widget-id="618973837762383879">Tweets by @PerlTricks</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</div>
+
+            <div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+    <script async src="/widgets/toplinks/toplinks.js" type="text/javascript"></script>
+    <div id="toplinks"></div>
+  </div>
+</div>
+
+            <div class="row" style="margin-top:20px">
+  <div class="col-sm-12 centering">
+    <script src="https://www.reddit.com/r/perl/hot/.embed?limit=10&t=all" type="text/javascript"></script>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+<script>
+ 
+var tables, i;
+tables = document.getElementsByTagName('table');
+for (i=0;i<tables.length;i++) {
+  tables[i].className = 'table table-striped';
+}
+</script>
+<div class="push"></div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+        <h5>Site Map</h5>
+        <ul>
+        <li><a href="/about">About</a></li>
+        <hr>
+        <li><a href="/">Articles</a></li>
+        <hr>
+        <li><a href="/authors">Authors</a></li>
+        <hr>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <p>To get in touch, send an email to: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="adc8c9c4d9c2dfedddc8dfc1d9dfc4cec6de83cec2c0">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></p>
+        <p>Follow us:&nbsp;
+          <a href="https://twitter.com/intent/follow?screen_name=perltricks">
+              <img src="/images/footer/twitter_20_dark.png" alt="twitter"></a>
+          <a href="/index.xml" /><img src="/images/footer/rss_20_dark.png" alt="rss"></a>
+          <a href="https://github.com/dnmfarrell/perltricks-static/" />
+              <img src="/images/header/github_light_20.png" alt="GH"></a></p>
+          <p>&copy; <span id="year"></span> PerlTricks.com</p>
+      </div>
+      <div class="col-md-7">
+          <h5>Legal</h5>
+          <p>PerlTricks.com and the authors make no representations or warranties with respect to the accuracy or completeness of the contents of all work on this website and specifically disclaim all warranties, including without limitation warranties of fitness for a particular purpose. No warranty may be created or extended. The advice and strategies published on this website may not be suitable for every situation. All work on this website is provided with the understanding that PerlTricks.com and the authors are not engaged in rendering legal, accounting, or other professional services. Neither PerlTricks.com nor the authors shall be liable for damages arising herefrom.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/perltricks.css"/>
+<script src="/javascript/jquery.min.js"></script>
+<script src="/javascript/bootstrap.min.js"></script>
+<script src="/javascript/prettify.min.js"></script>
+<script>document.getElementById("year").innerHTML = (new Date()).getFullYear();prettyPrint();</script>
+</body>
+</html>
+
